@@ -7,10 +7,12 @@ int main()
 	double area;
 	cin >> area;
 
-	double finalPrice = pricePerM2 * area * 0.82;
-	double discount = pricePerM2 * area * 0.18;
+	double totalPrice = pricePerM2 * area;
+	double discount = totalPrice * 0.18;
+	double finalPrice = totalPrice - discount;
 
-	cout << "The final price is: " << finalPrice << " lv.\n";
-	cout << "The discount is: " << discount << " lv.";
+
+	cout << "The final price is: " << finalPrice << " lv." << endl;
+	cout << "The discount is: " << discount << " lv." << endl;
 
 }
