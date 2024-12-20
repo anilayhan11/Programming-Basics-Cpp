@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="USDToBGN.cpp">
+    <ClCompile Include="Aquarium.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
